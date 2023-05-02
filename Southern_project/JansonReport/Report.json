@@ -1,0 +1,1456 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.732Z",
+        "line": 15,
+        "name": "Login to southern",
+        "description": "",
+        "id": "southern-parent-portal-login;login-to-southern;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User2 launchs the chrome browser to view southern parent portal",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User2 need to clicks AlreadySignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User2 enter emailaddress in the \"parent@mindwaveventures.com\" In Email Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User2 enter password in the \"Test@123\" In Password Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User2 click now clicks the Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User2 navigated to Home Page success",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountSettings"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.832Z",
+        "line": 18,
+        "name": "To submit feedback form",
+        "description": "",
+        "id": "southern-parent-portal-login;to-submit-feedback-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User clicks bento menu",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user clicks feedback menu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enters \"subject\" for feedback",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user enter \"suggestions\" for feedback",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks submit button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user clicks Okay button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountSettings"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.845Z",
+        "line": 27,
+        "name": "To update profile",
+        "description": "",
+        "id": "southern-parent-portal-login;to-update-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "User clicks bento menu to click profile",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user clicks account settings",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user clicks profile menu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2001200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "users enters \"lastname\" to update",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "click update profile to update the changes made",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AccountSettings"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Southern Parent Portal Login",
+    "description": "",
+    "id": "southern-parent-portal-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/A_AccountSettings.feature",
+    "tags": [
+      {
+        "name": "@AccountSettings",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 19
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.859Z",
+        "line": 5,
+        "name": "Login to southern",
+        "description": "",
+        "id": "southern-parent-portal-login;login-to-southern",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User launchs the browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks AlreadySignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enter The \"\u003cemail\u003e\" In Email Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enter The \"\u003cpassword\u003e\" In Password Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click the Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User navigated to Home Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddChild"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.874Z",
+        "line": 13,
+        "name": "Add Child to parent portal",
+        "description": "",
+        "id": "southern-parent-portal-login;add-child-to-parent-portal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User click button to Add Child",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enters \"\u003cChildNHSNumber\u003e\" in Child NHS Number Field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Users enters \"\u003cDate\u003e\" in Date field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Users enters \"\u003cMonth\u003e\" in Month field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Users enters \"\u003cYear\u003e\" in Year field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click Add child button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "verify success message",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user taken to Dashboard page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "take screen of the child added page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddChild"
+          }
+        ]
+      }
+    ],
+    "name": "Southern Parent Portal Login",
+    "description": "",
+    "id": "southern-parent-portal-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/B_AddChild.feature",
+    "tags": [
+      {
+        "name": "@AddChild",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.884Z",
+        "line": 5,
+        "name": "To login as parent user and view child details",
+        "description": "",
+        "id": "this-is-child-flow-to-view-child-permissions;to-login-as-parent-user-and-view-child-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User now navigated to the Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User now click AlreadySignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User now enters The \"\u003cemail\u003e\" In Email Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User now enters The \"\u003cpassword\u003e\" In Password Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User now clicks the Login button to login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user Verify Home text in dashboard page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click on child User icon",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ChildDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.900Z",
+        "line": 42,
+        "name": "To View appointment page",
+        "description": "",
+        "id": "this-is-child-flow-to-view-child-permissions;to-view-appointment-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "click child overview link again",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "click letters and documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Click All button to view all documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "Click View Document button to view the document",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "click Close icon to close the document",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Click Filter icon to filter the documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "select checkboxes to select the document title",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Click Apply button to view the filtered documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "click filter and clear the title to view all documents",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Click Sort icon to sort filter",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "choose aplhabetically order to sort",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "Take scrceenshot of the Documents page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ChildDetails"
+          }
+        ]
+      }
+    ],
+    "name": "This is child flow to view Child permissions",
+    "description": "",
+    "id": "this-is-child-flow-to-view-child-permissions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/C_ChildDetails.feature",
+    "tags": [
+      {
+        "name": "@ChildDetails",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.913Z",
+        "line": 5,
+        "name": "This is SignUp page to create user",
+        "description": "",
+        "id": "this-is-southern-signup-page;this-is-signup-page-to-create-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User is in Home Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on SignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters valid \"\u003cfirstname\u003e\" in FirstName field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1005300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enters valid \"\u003clastname\u003e\" in LastName field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters valid \"\u003cemailaddress\u003e\" in Emailaddres field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter valid \"\u003cphonenumber\u003e\" in PhoneNumber",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User enters \"\u003cpassword\u003e\" in Passowrd",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters \"\u003cpasswordcombination\u003e\" in ConfirmPassword",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Users selects the  Terms of Service field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User selects the Privacy Statement",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click SignUp to create account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Success pop up displays if child linked orelse error message displays",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Take screenshot of the SignUp Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignUp"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@ParentUserSignUp"
+          }
+        ]
+      }
+    ],
+    "name": "This is Southern SignUp page",
+    "description": "",
+    "id": "this-is-southern-signup-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/D_SignUp.feature",
+    "tags": [
+      {
+        "name": "@SignUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.933Z",
+        "line": 6,
+        "name": "To add admin user",
+        "description": "",
+        "id": "to-add-staff-users;to-add-admin-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User needs to launch the browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User then clicks AlreadySignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User needs to enter The \"\u003cemail\u003e\" In Email Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User needs to enter The \"\u003cpassword\u003e\" In Password Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User needs to click the Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User should be navigated to Home Page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click Staff Overview icon",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click add staff button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user needs to click the user role dropbox",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user selects admin user option",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "enter \"\u003cfirstname1\u003e\" in firstname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "enter \"\u003clastname1\u003e\" in lastname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "enter  \"\u003cRIOID1\u003e\" in rioid field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user clicks on create profile button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "get confirmation text1",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click ok1 to exit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "take screenshot of the added admin user",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StaffOverview"
+          },
+          {
+            "name": "@AddAdmin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.956Z",
+        "line": 27,
+        "name": "To add admin user",
+        "description": "",
+        "id": "to-add-staff-users;to-add-admin-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "click to add staff button to add superadmin user",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user now clicks the user role dropbox",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user now selects superadmin user option",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user enters \"\u003cfirstname2\u003e\" in firstname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user enters \"\u003clastname2\u003e\" in lastname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user enters  \"\u003cRIOID2\u003e\" in rioid field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user then clicks on create profile button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User gets confirmation text1",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User clicks ok2 to exit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user takes screenshot of the added superadmin user",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StaffOverview"
+          },
+          {
+            "name": "@AddSuperAdmin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.969Z",
+        "line": 41,
+        "name": "To add admin user",
+        "description": "",
+        "id": "to-add-staff-users;to-add-admin-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "User clicks to add staff button to add staff user",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user then clicks the user role dropbox",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user then selects staff user option",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user must enter \"\u003cfirstname3\u003e\" in firstname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user must enter \"\u003clastname3\u003e\" in lastname field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "user must enter  \"\u003cRIOID3\u003e\" in rioid field",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "user has to click on create profile button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "User should get confirmation text1",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "User must click ok3 to exit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "user takes screenshot of the added staff user",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@StaffOverview"
+          },
+          {
+            "name": "@AddStaff"
+          }
+        ]
+      }
+    ],
+    "name": "To add staff users",
+    "description": "",
+    "id": "to-add-staff-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/E_AddStaff.feature",
+    "tags": [
+      {
+        "name": "@StaffOverview",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-06T08:35:24.977Z",
+        "line": 6,
+        "name": "To login as Superadmin and Search user",
+        "description": "",
+        "id": "this-is-admin-flow-to-view-superadmin-permissions;to-login-as-superadmin-and-search-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User should  navigate to the Home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User then click AlreadySignUp link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User entered The \"\u003cadminemail\u003e\" In Email UI Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User entered The \"\u003cadminpassword\u003e\" In Password UI Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has clicked the Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Take screenshot of admin home page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click on Parent overview icon",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Type the parent you want to \"\u003csearch\u003e\" text",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "press enter key to view the search result",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Take screenshot of the page displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdminFlow"
+          },
+          {
+            "name": "@SearchUser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-06T08:35:24.991Z",
+        "line": 21,
+        "name": "To login as Superadmin and Chnage Role of the user",
+        "description": "",
+        "id": "this-is-admin-flow-to-view-superadmin-permissions;to-login-as-superadmin-and-chnage-role-of-the-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "User click on Home Link to navigate to Home page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User needs to click on StaffOverview icon",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user clicks on 3dots to change user role",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user selects Change role",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user select the user to be changed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "take screenshot of the page after userrole changed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdminFlow"
+          },
+          {
+            "name": "@ChangeRole"
+          }
+        ]
+      }
+    ],
+    "name": "This is admin flow to view superadmin permissions",
+    "description": "",
+    "id": "this-is-admin-flow-to-view-superadmin-permissions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_file/F_AdminFlow.feature",
+    "tags": [
+      {
+        "name": "@AdminFlow",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
