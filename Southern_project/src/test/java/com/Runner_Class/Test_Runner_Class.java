@@ -13,5 +13,6 @@ public class Test_Runner_Class {
 	public static void main(String[] args) {
 		System.out.println("dummy text");
 		System.out.println("dummy text1");
+		System.out.println("dummy text2");
 	}
 }
